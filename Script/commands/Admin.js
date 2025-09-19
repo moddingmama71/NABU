@@ -46,7 +46,7 @@ module.exports.run = async function({ api, event }) {
 │ ${time}
 └───────────────⭓
  `,
- attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
+ attachment: fs.createReadStream(__dirname + "/cache/o.jpg")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
  return request("https://i.imgur.com/XfyXL2d.jpeg")
