@@ -34,7 +34,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 
  const msg = `╭⭓ ⪩ 𝐁𝐎𝐓𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⪨
 │
-├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : মাল চৌধুরী
+├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : মাল চৌধুরী 😈
 ├─ ☢️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${config.PREFIX}
 ├─ ♻️ 𝗣𝗿𝗲𝗳𝗶𝘅 𝗕𝗼𝘅 : ${prefix}
 ├─ 🔶 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 : ${commands.size}
